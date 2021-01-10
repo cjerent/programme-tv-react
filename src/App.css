@@ -1,18 +1,37 @@
 .App {
   font-family: "Montserrat", sans-serif;
 }
-
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .container {
   display: flex;
   align-items: center;
-  margin-left: 500px;
   height: 111px;
   width: 580px;
   padding: 40px 0 20px 0;
   border-bottom: 1px solid #e5e5e5;
 }
 
+.header {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header img {
+  height: 40px;
+}
+
 h1 {
+  font-size: 16px;
+  margin-left: 0;
+}
+h2 {
   font-weight: 700;
   font-style: normal;
   font-size: 15px;
